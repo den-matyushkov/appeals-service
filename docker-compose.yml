@@ -1,0 +1,7 @@
+services:
+  appeals-service:
+    build: .
+    container_name: appeals-service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
